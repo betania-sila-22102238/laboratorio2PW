@@ -35,7 +35,7 @@ nav a:hover {
   padding: 0.5rem;
 }
 /* Configuração dos ícones do menu*/
-nav a:before {
+nav a[href = 'home.html']:before {
     font-family: 'FontAwesome';
     content: "🏡";
     /*Ícone de casa */
